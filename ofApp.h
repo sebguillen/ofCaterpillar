@@ -26,19 +26,23 @@ class ofApp : public ofBaseApp{
     
 private:
     
+// Colours
+    
     float colour_Red;
     float colour_Green;
     float colour_Blue;
     
+// Drawing variables
     float circle_Number;
     float oscRate_R, oscRate_G, oscRate_B;
-    
+
     float xPos, yPos, Radius;
     float start_xPos, start_yPos;
     float amp_xPos, amp_yPos;
     float oscRate_xPos, oscRate_yPos;
     float start_Radius, amp_Radius, oscRate_Radius;
     
+// Variables for the function 'drawCirlce'
     float cN, oscR, oscG, oscB, sX, sY, ampX, ampY, oscX, oscY, sR, aR, oscRa;
     float ampTrans, trRate, rotRate, ampRate;
     
@@ -48,7 +52,6 @@ private:
     float aY;
     
     bool test1, test2;
-    
     int frameSpeed;
     float startCol_R, startCol_G, startCol_B, startAlpha;
     ofColor background;
